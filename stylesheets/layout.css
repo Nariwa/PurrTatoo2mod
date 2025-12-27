@@ -1,0 +1,507 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d2e4a;
+  padding: 2vw;
+  overflow-x: hidden;
+}
+#header {
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  height: 41vw;
+  position: relative;
+}
+#header h1 {
+  position: absolute;
+  color: #1d2e4a;
+  text-align: center;
+  margin: 0 auto;
+  top: 40%;
+  left: 24%;
+  font-size: 8vw;
+  animation: h1 4s infinite linear;
+  font-family: Novoposelensky;
+}
+#header h1:hover {
+  animation-play-state: paused;
+}
+#header h1:hover ~ .lapki {
+  top: 0;
+  transition: top 0.2s ease;
+}
+.lapki {
+  width: 9vw;
+  height: 20vw;
+  position: absolute;
+  top: -70%;
+  transition: top 2s ease;
+}
+.left-lapka {
+  left: 20%;
+}
+.right-lapka {
+  right: 20%;
+}
+
+#ekran2 {
+  width: 100%;
+  overflow: hidden;
+  height: 10vw;
+  margin-top: 2vw;
+  background-color: #52667E;
+  border-radius: 1.3vw;
+  position: relative;
+}
+
+.ryba {
+  background-color: #52667E;
+  border-radius: 1.3vw;
+  position: relative;
+  
+}
+
+.begaetstroka {
+  position: absolute;
+  width: 300%;
+  animation: begali 10s linear infinite; 
+  margin-top: 1vw;
+}
+
+.leftl, .rightl {
+  width: 150%;
+}
+
+#ekran3 {
+  margin-top: 2vw;
+  display: flex;
+  position: relative;
+}
+
+.levaya3 {
+  background-color: #0F1A2C;
+  width: 35vw;
+  height: 50vw;
+  border-radius: 1.3vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.yzorchik1 {
+  width: 60%;
+  position: absolute;
+  animation: yzorchik1 3s linear infinite;
+  opacity: 0;
+}
+
+.yzorchik2 {
+  width: 90%;
+  position: absolute;
+  animation: yzorchik2 3s linear infinite;
+  animation-delay: 1s;
+    opacity: 0;
+}
+
+.yzorchik3 {
+  width: 20%;
+  position: absolute;
+  animation: yzorchik3 3.2s linear infinite;
+    opacity: 0;
+}
+
+.yzorchik4 {
+  width: 60%;
+  position: absolute;
+  animation: yzorchik1 3.2s linear infinite;
+  animation-delay: 1.5s;
+    opacity: 0;
+}
+
+.yzorchik5 {
+  width: 90%;
+  position: absolute;
+  animation: yzorchik1 3.2s linear infinite;
+  animation-delay: 2s;
+  left: 30%;
+  opacity: 0;
+}
+
+.yzorchik6 {
+  width: 20%;
+  position: absolute;
+  animation: yzorchik6 3.2s linear infinite;
+  left: 10%;
+  opacity: 0;
+}
+
+
+.yzorchik1:hover {
+  animation-play-state: paused;
+}
+
+.yzorchik2:hover {
+  animation-play-state: paused;
+}
+
+.yzorchik3:hover {
+  animation-play-state: paused;
+}
+
+.yzorchik4:hover {
+  animation-play-state: paused;
+}
+
+.yzorchik5:hover {
+  animation-play-state: paused;
+}
+
+.yzorchik6:hover {
+  animation-play-state: paused;
+}
+
+
+.pravaya3 {
+  width: 61vw;
+  height: 50vw;
+  margin-left: 2vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+}
+
+.kotiki1, .kotiki2 {
+  width: 60%;
+  position: absolute;
+  margin-left: 1%;
+  margin-top:4vw;
+}
+
+.kotiki2:hover {
+  opacity: 0;
+}
+
+.text1 {
+  font-size: 2.6vw;
+  transition: all 0.5s ease;
+  font-family: Bahnschrift;
+  color: #1D2E4A;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  line-height: 120%;
+}
+
+.text1:hover {
+  /* animation: text1 0.6s linear infinite; */
+  text-shadow: 0 -6px 18px rgba(48, 86, 145, 0.35);
+  transition: all 0.5s ease;
+}
+
+#ekran4 {
+  margin-top: 5vw;
+  display: flex;
+  position: relative;
+}
+
+.srockot {
+  position: absolute;
+  width: 500%;
+  animation: begakotot 8s linear infinite; 
+  margin-top: -7.5vw;
+}
+/* #ekran5 {
+  margin-top: 30vw;
+  display: flex;
+  position: relative;
+} */
+
+.cybic1 {
+  width: 20vw;
+  height: 20vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+}
+
+.cybic2 {
+  width: 20vw;
+  height: 20vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  margin-top: 2vw;
+}
+
+.stroka1cybicov {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30.7vw;
+}
+
+.cybic3 {
+  width: 20vw;
+  height: 20vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  margin-top: -42vw;
+  margin-left: 22vw;
+}
+
+.cybic4 {
+  width: 20vw;
+  height: 20vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  margin-top: 2vw;
+  margin-left: 22vw;
+}
+
+.stroka2cybicov {
+  display: flex;
+  flex-direction: column;
+}
+
+.knop5na1 {
+  width: 17vw;
+  margin-left: 1.5vw;
+  margin-top: 4vw;
+}
+
+.knop5na2 {
+  width: 17vw;
+  margin-left: 1.5vw;
+  margin-top: 4vw;
+}
+
+.knop5na3 {
+  width: 14vw;
+  margin-left: 3vw;
+  margin-top: 3.5vw;
+}
+
+.knop5na4 {
+  width: 17vw;
+  margin-left: 1.5vw;
+  margin-top: 2vw;
+}
+
+.pravoe5 {
+  width: 51vw;
+  height: 42vw;
+  margin-left: 44vw;
+  margin-top: -42vw;
+  background-color: #52667E;
+  border-radius: 1.3vw;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../images/koteo5ekraneo.png");
+  animation: cattatoo 1s steps(1) infinite;
+  background-size: 400%;
+}
+
+.pravoe5:hover{
+  animation-play-state: paused;
+}
+
+@keyframes cattatoo{
+
+0% {
+    background-position: 0 0;
+}
+
+33% {
+    background-position: -51vw 0;
+}
+66% {
+    background-position: -102vw 0;
+}
+100% {
+    background-position: 0 0;
+}
+}
+
+#ekran6left {
+  width: 50%;
+  overflow: hidden;
+  height: 10vw;
+  margin-top: 2vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  position: relative;
+}
+
+.rybalvxod6 {
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  position: relative;
+}
+
+.a6ekrvxod {
+  position: absolute;
+  width: 600%;
+  animation: a6ekrvxod 10s linear infinite; 
+  margin-top: 1vw;
+}
+
+#ekran6right {
+  width: 50%;
+  overflow: hidden;
+  height: 10vw;
+  margin-top: 2vw;
+  background-color: #52667E;
+  border-radius: 1.3vw;
+  position: relative;
+}
+
+.rybalvixod6 {
+  background-color: #52667E;
+  border-radius: 1.3vw;
+  position: relative;
+}
+
+.a6ekrvixod {
+  position: absolute;
+  width: 600%;
+  animation: a6ekrvixod 10s linear infinite; 
+  margin-top: 1vw;
+}
+
+#ekran6 {
+  display: flex;
+  flex-direction: row;
+}
+
+.portals6ekr {
+  position: absolute;
+  margin-left: -49vw;
+  margin-top: 2vw;
+  width: 3.3%;
+}
+
+.text2 {
+  font-size: 4.16vw;
+  font-family: Novoposelensky;
+  color: #D2CFCA;
+  margin-top: 1vw;
+}
+
+.ekran7 {
+  margin-top: 5vw;
+  display: flex;
+  position: relative;
+}
+
+.glazki {
+  width: 70vw;
+  height: 25vw;
+  margin-top: 1vw;
+  background-color: #52667E;
+  border-radius: 1.3vw;
+}
+
+.nizglaz {
+  width: 65vw;
+  margin-top: 3vw;
+  margin-left: 2.5vw;
+}
+
+.verxglaz {
+  width: 53vw;
+  margin-top: 6.5vw;
+  margin-left: -60vw;
+  position: absolute;
+  animation: verxglaz 1s ease-in-out infinite both;
+}
+
+.kotfrom7 {
+  width: 22.5vw;
+  height: 29vw;
+  margin-top: -29vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  margin-left: 72vw;
+}
+
+.koteo7smotr {
+  margin-left: 5vw;
+  margin-top: 2vw;
+  width: 13vw;
+}
+
+.perekritie7koshki {
+  width: 22.65vw;
+  height: 29.5vw;
+  background-color: #0F1A2C;
+  border-radius: 1.3vw;
+  margin-top: -31.9vw;
+  margin-left: -0.1vw;
+  position: absolute;
+  clip-path: circle(100% at 50% 50%);
+  animation: circleAppear 0.8s ease;
+}
+
+.ekran7right {
+  width: 1vw;
+}
+
+.ekran7right:hover .perekritie7koshki {
+  animation: circleDisappear 0.8s ease forwards;
+}
+
+.finalend {
+  width: 22.5vw;
+  height: 29vw;
+  margin-top: -29vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  margin-left: 72vw;
+}
+
+.podval {
+  width: 100%;
+  height: 18vw;
+  background-color: #D2CFCA;
+  border-radius: 1.3vw;
+  margin-top: 2.1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h4 {
+  font-size: 5vw;
+  font-family: PhilosopherRegular;
+  color: #0F1A2C;
+}
+
+h5 {
+  font-size: 4.5vw;
+  font-family: PhilosopherRegular;
+  color: #0F1A2C;
+}
+
+.yzoryra {
+  position: absolute;
+  width: 90vw;
+  margin-left: 2.5vw;
+  margin-top: -10vw;
+}
+
+.variant1 {
+  position: absolute;
+  margin-top: 25vw;
+  margin-left: -22vw;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.yzorglav1ekr {
+  width: 92vw;
+  margin-left: 1.5vw;
+  margin-top: 2vw;
+}
+
+.adapt2e {
+  opacity: 0;
+}
+
+.adapt3e {
+  opacity: 0;
+}

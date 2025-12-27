@@ -1,0 +1,261 @@
+
+
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+
+#header {
+   height: 65vw;
+}
+
+#header h1 {
+    margin-top: 2.5vw;
+}
+
+.lapki {
+    height: 50vw;
+    width: 12vw;
+}
+
+.yzorglav1ekr {
+display: none;
+}
+
+.adapt2e {
+  opacity: 1;
+  margin-top: 1.5vw;
+  width: 90vw;
+  margin-left: 2vw;
+}
+
+#ekran3 {
+ flex-direction: column;
+}
+
+.levaya3 {
+    width: 100%;
+}
+
+.yzorchik1 {
+    width: 30%;
+}
+
+.yzorchik2 {
+    width: 60%;
+}
+
+.yzorchik3 {
+    width: 10%;
+}
+
+.yzorchik4 {
+    width: 30%;
+}
+
+.yzorchik5 {
+    width: 60%;
+}
+
+.yzorchik6 {
+    width: 10%;
+}
+
+.pravaya3 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 2vw;
+}
+
+.kotiki1, .kotiki2 {
+    width: 60%;
+    margin-left: 37%;
+    margin-top: -0.2vw;
+}
+
+.text1 {
+  font-size: 3.5vw;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 450px)  {
+#header {
+   height: 210vw;
+}
+
+.lapki {
+    height: 50vw;
+    width: 12vw;
+}
+
+.yzorglav1ekr {
+    opacity: 0;
+}
+
+.adapt2e {
+  opacity: 0;
+}
+
+
+#header h1 {
+    margin-top: 14vw;
+    font-size: 10vw;
+    margin-left: -7vw;
+}
+
+
+.yzorglav1ekr {
+display: none;
+}
+
+.adapt2e {
+display: none;
+}
+
+
+#ekran2 {
+    height: 20vw;
+}
+
+.begaetstroka {
+    margin-top: 1.5vw;
+    width: 600%;
+}
+
+
+#ekran3 {
+ flex-direction: column;
+}
+
+.levaya3 {
+    width: 100%;
+    height: 100vw;
+}
+
+.yzorchik1 {
+    width: 30%;
+}
+
+.yzorchik2 {
+    width: 60%;
+}
+
+.yzorchik3 {
+    width: 10%;
+}
+
+.yzorchik4 {
+    width: 30%;
+}
+
+.yzorchik5 {
+    width: 60%;
+}
+
+.yzorchik6 {
+    width: 10%;
+}
+
+.pravaya3 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 2vw;
+    height: 70vw;
+}
+
+.kotiki1, .kotiki2 {
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 2vw;
+}
+
+.text1 {
+  font-size: 4.5vw;
+}
+
+
+.glazki {
+    width: 100%;
+    height: 33vw;
+}
+
+.ekran7right {
+    margin-top: 60vw;
+    width: 100%;
+}
+
+.nizglaz {
+    width: 93%;
+    margin-left: 3vw;
+}
+
+.verxglaz {
+    width: 70%;
+    margin-left: -80vw;
+}
+
+.kotfrom7 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: -58vw;
+    height: 100vw;
+}
+
+.koteo7smotr {
+    width: 43vw;
+    margin-left: 27vw;
+    margin-top: 7vw;
+}
+
+.perekritie7koshki {
+    width: 97%;
+    height: 101vw;
+    margin-top: -105vw;
+
+}
+
+.text2 {
+    font-size: 5.5vw;
+}
+
+#ekran6left {
+    height: 15vw;
+}
+
+#ekran6right {
+    height: 15vw;
+}
+
+.a6ekrvxod {
+    width: 900%;
+}
+
+.a6ekrvixod {
+    width: 900%;
+}
+
+.portals6ekr {
+    width: 5%;
+}
+
+.podval {
+    position: absolute;
+    width: 96%;
+}
+
+.yzoryra {
+    position: absolute;
+    margin-top: 11vw;
+    margin-left: 1.5vw;
+}
+
+.adapt3e {
+    opacity: 1;
+    width: 98%;
+    margin-top: 6vw;
+    margin-left: 1vw;
+}
+
+}
